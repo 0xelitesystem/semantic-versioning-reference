@@ -8,15 +8,19 @@ A SemVer number is written `MAJOR.MINOR.PATCH` (for example `2.4.1`), and each p
 
 ## What is inside
 
-- `01-what-semver-means.md` the MAJOR.MINOR.PATCH format and how the numbers reset when you bump.
-- `02-when-to-bump-which.md` concrete rules for choosing PATCH, MINOR, or MAJOR.
-- `03-version-ranges.md` the caret, tilde, wildcard, and comparison syntax you look up in a dependency file.
-- `04-prerelease-and-build-metadata.md` alpha and beta tags, build metadata, and how precedence is decided.
-- `05-zero-dot-x-caveats.md` why 0.x is special and what the rules change to before 1.0.0.
+- [01-what-semver-means.md](01-what-semver-means.md) the MAJOR.MINOR.PATCH format and how the numbers reset when you bump.
+- [02-when-to-bump-which.md](02-when-to-bump-which.md) concrete rules for choosing PATCH, MINOR, or MAJOR.
+- [03-version-ranges.md](03-version-ranges.md) the caret, tilde, wildcard, and comparison syntax you look up in a dependency file.
+- [04-prerelease-and-build-metadata.md](04-prerelease-and-build-metadata.md) alpha and beta tags, build metadata, and how precedence is decided.
+- [05-zero-dot-x-caveats.md](05-zero-dot-x-caveats.md) why 0.x is special and what the rules change to before 1.0.0.
 
 ## The stance
 
 The rules here match the SemVer 2.0.0 spec, stated plainly with real version strings you can copy. Where the spec is strict, this reference is strict; where common tooling adds behavior on top, it says so.
+
+## More
+
+Part of a catalog of single-file browser tools and plain-language references, all MIT licensed and dependency-free: [0xelitesystem.github.io](https://0xelitesystem.github.io/). Built by [elitesystem.ai](https://elitesystem.ai).
 
 ## License
 
